@@ -1,10 +1,10 @@
 import React from 'react';
-
+import clownImage from '../../assets/ss13clown.jpg';
 function About() {
   return (
     <div class="about-me"id="about-me">
  
-        <image id="myimage" src="./assets/images/ss13clown.jpg"/>
+        <img src={clownImage} id="myimage"  alt="Flip Flap the Traitor"/>
           <div class="abouttxt">
           <h2 class="section-title">About Me</h2>
       <p>My name is Kevin Wesley Miller and I am currently working to become a web developer. 
