@@ -5,7 +5,7 @@ import img3 from '../../assets/password-generator.png';
 import img4 from '../../assets/javaquiz.png';
 import img5 from '../../assets/bq1.jpg';
 import img6 from '../../assets/Love-monster.png';
-
+import img7 from '../../assets/fretwerx.png';
 
 function Work() {
   
@@ -55,7 +55,12 @@ function Work() {
             <h4>HTML/CSS/JS/MySQL/socket.io</h4>
           </a>
           </div>
-
+          <div class="work-grid-item"><a href="https://calm-castle-07958.herokuapp.com/"target="_blank">
+        <img class="workimg" alt="Fret-Wex" src={img7}/>
+        <h3>Fret-Wex</h3>
+        <h4>React</h4>
+      </a>
+      </div>
      </div>
     </section>
    
